@@ -1,10 +1,7 @@
 class SwitchCase {
     public static void main(String[] args) {
-        // Declare an integer variable day
-        int day = 6; // Example value: 6 for Friday
-
-        // Use switch statement
-        switch (day) {
+        int day = 6;
+		switch (day) {
             case 1:
                 System.out.println("Sun");
                 break;
@@ -25,8 +22,7 @@ class SwitchCase {
                 break;
             case 7:
                 System.out.println("Sat");
-                break;
-            // Handle invalid input using default
+                break;        
             default:
                 System.out.println("Invalid day");
                 break;
