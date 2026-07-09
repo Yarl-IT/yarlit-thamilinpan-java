@@ -2,14 +2,11 @@ import java.util.Scanner;
 class SimpleCalculator{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
-		int No =0;
 		System.out.print("Enter First Number :");
-		No=scan.nextInt();
-		
-		Scanner Number=new Scanner(System.in);
-		int No1 =0;
+		int No=scan.nextInt();
+	
 		System.out.print("Enter Second Number :");
-		No1=Number.nextInt();
+		int No1=scan.nextInt();
 		
 		System.out.println("");
 		System.out.println("Choose Operation :");
@@ -18,10 +15,9 @@ class SimpleCalculator{
 		System.out.println("3.Multiplication (*)");
 		System.out.println("4.Division (/)");
 		
-		 int No2 = 4;
-		 Scanner Number2=new Scanner(System.in);
+		
 		 System.out.print("Enter Your Choice :");
-		 No2=Number2.nextInt();
+		 int No2=scan.nextInt();
 		 System.out.print("Result =");
 		 
 		 switch (No2){
