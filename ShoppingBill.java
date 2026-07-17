@@ -7,13 +7,14 @@ class ShoppingBill{
 		int x =sc.nextInt();
 		System.out.print("Enter Quantity :");
 		int y=sc.nextInt();
+		int z=x*y;
 		
-		 if (x>=5000) {
+		 if (z>=5000) {
             System.out.println("Discount applied (10%)");
-			System.out.println("Total Bill Amount :"+(x-(x*0.1)));
+			System.out.println("Total Bill Amount :"+(z-(z*0.1)));
 			
          }else{
-			 System.out.println("Total Bill Amount :"+x);
+			 System.out.println("Total Bill Amount :"+z);
 		 }
             
 		   
