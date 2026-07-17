@@ -13,7 +13,8 @@ class ShoppingBill{
             System.out.println("Discount applied (10%)");
 			System.out.println("Total Bill Amount :"+(z-(z*0.1)));
 			
-         }else{
+         }
+		 else{
 			 System.out.println("Total Bill Amount :"+z);
 		 }
             
