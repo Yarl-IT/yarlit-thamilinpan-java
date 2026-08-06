@@ -10,7 +10,7 @@ class UserInput{
 		System.out.println("*********");
 		
 		int marks=0;
-		System.out.println("Please Enter Your Marks :");
+		System.out.print("Please Enter Your Marks :");
 		marks=scan.nextInt();
 		System.out.println("Your Marks is :"+marks);
 		
